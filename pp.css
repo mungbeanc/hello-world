@@ -1,0 +1,126 @@
+@charset "utf-8";
+* {margin:0;padding:0;}
+ul,ol,li{list-style: none;}
+i,em{font-style: normal;}
+b,strong {font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+
+#top {
+    width:100%;
+    height:80px;
+    background:#000;
+  }
+  .top {
+    width:960px;
+    margin:0 auto;
+   
+    height:80px;
+  }
+  .logo {
+    float:left;
+    width:62px;
+    padding-top:21px;
+    font-size:22px;
+    line-height:22px;
+    color:#fff;
+    
+  }
+  .right-banner {
+    width:158px;
+    float:right;
+    padding-top:10px;
+    margin-right:184px;
+    font-size:13px;
+    
+  }
+  a {color:#fff;}
+  .regi {margin:0 10px;}
+  
+  .banner {
+    width:100%;
+    height:300px;
+    background:#66bb33;
+  }
+  .digit {
+    width:135px;
+    height:50px;
+    
+    float:right;
+    margin:230px 183px 10px 0;
+  }
+  .digit1 {
+    float:left;
+    width:30px;
+    height:35px;
+    background:#789;
+    margin-top:15px;
+    margin-right:5px;
+  }
+  .digit2 {
+    float:left;
+    width:30px;
+    height:50px;
+    background:#789;
+    margin-right:5px;
+  }
+  .digit3 {
+    float:left;
+    width:30px;
+    height:35px;
+    background:#789;
+    margin-top:15px;
+    margin-right:5px;
+  }
+  .digit4 {
+    float:left;
+    width:30px;
+    height:35px;
+    background:#789;
+    margin-top:15px;
+  }
+  .main {
+    width:100%;
+    height:70px;
+  
+    border-bottom:1px solid #e9e4e4;
+  }
+  .main_banner {
+    width:960px;
+    height:70px;
+    margin:0 auto;
+  }
+  .banner1, .banner2, .banner3 {
+    margin-top:20px;
+    height:50px;
+  }
+  .banner1{width:106px;float:left;background:red;}
+  .banner2 {width:117px;float:left;background:yellow;}
+  .banner3 {width:111px;float:left;background:blue;}
+  
+  .content {
+    width:960px;
+    height:578px;
+    margin:0 auto;
+    
+  }
+  #row1,#row2,#row3 {height:176px;margin-top:10px;}
+  #row3 {margin-bottom:20px;}
+  .row1,.row2,.row3 ,.row4,.row5,.row6,.row7,.row8,.row9,.row10
+  {
+    font-size:11px;
+    border:1px solid #e9e4e4;
+    margin:0 5px;
+    float:left;
+  }
+  .row1 {padding:80px 108px 80px 106px;}
+  .row2 {padding:80px 106px 80px 107px;}
+  .row3 {padding:80px 106px;}
+  .row4,.row5,.row6,.row7 {padding:80px;}
+  .row8,.row9,.row10 {padding:80px 120px;}
+  .btn {width:100%;height:120px;background:#666666;}
+  p {
+    width:145px;
+    padding-top:20px;
+  margin:0 auto;
+  font-size:12px;
+  color:#e9e4e4;}
