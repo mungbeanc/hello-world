@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/page4.css">
+    <title>page4</title>
+</head>
+<body>
+    <!--第一块-->
+    <div id="top"></div>
+    <!--第二块-->
+    <div id="top-cont">
+        <div class="tit">
+            <p class="tit1">BOATLOADS OF AWESOME</p>
+            <p class="tit2">Ready-made,customizable,HTML</p>
+            <p class="tit3">landing page sections</p>
+        </div>
+        <div class="first">
+        <div class="cont1">
+            <img src="images/demo_03.jpg" alt="">
+            <h3>Mobile First</h3>
+            <p>All modulz are build mobile first for maximum device compatibility</p>
+        </div>
+        <div class="cont2">
+            <img src="images/demo_05.jpg" alt="">
+            <h3>Mobile First</h3>
+            <p>All modulz are build mobile first for maximum device compatibility</p>
+        </div>
+        </div>
+        <div class="second">
+        <div class="cont3">
+            <img src="images/demo_09.jpg" alt="">
+            <h3>Mobile First</h3>
+            <p>All modulz are build mobile first for maximum device compatibility</p>
+        </div>
+        <div class="cont4">
+            <img src="images/demo_10.jpg" alt="">
+            <h3>Mobile First</h3>
+            <p>All modulz are build mobile first for maximum device compatibility</p>
+        </div>
+        </div>
+    </div>
+    <!--第三块-->
+    <div id="nav"></div>
+    <!--第四块-->
+    <div id="cont">
+    <div id="cont-wrap">
+        <h2>Try Our Awesome Products</h2>
+        <div class="contshow">
+            <dl class="show1">
+                <dt><img src="images/text_03.jpg" alt=""></dt>
+                <dd>ChinaChinaChinaChina ChinaChinaChin aChinaCh naChinaC hina ChinaC hinaChi naChinaC hinaChin aChin aChina ChinaChi naChin aChinaChina ChinaChin aChina ChinaChina</dd>
+            </dl>
+            <dl class="show2">
+                <dt><img src="images/text_05.jpg" alt=""></dt>
+                <dd>ChinaC hinaChinaChinaChina ChinaChinaChinaChinaChina ChinaCh inaChi naChina ChinaChinaCh inaChina ChinaChina ChinaChina ChinaChi naChinaC hinaCh inaChinaC hina</dd>
+            </dl>
+            <dl class="show3">
+                <dt><img src="images/text_07.jpg" alt=""></dt>
+                <dd>China China China China China China China ChinaC hinaChinaC hinaChin aChinaC hin aChin aChina</dd>
+            </dl>
+        </div>
+    </div>
+    </div>
+    <!--第五块-->
+    <div id="subs">
+        <div class="sub-top">
+            <img src="images/tree_03.jpg" alt="">
+            <h3>Learn How to Improve Your Personal Business</h3>
+            <p>Li jun,a China Li jun,a China Li jun,a China Li jun,a China Li jun,a China</p>
+        </div>
+        <div class="sub-bottom">
+            <img src="images/bird_03.jpg" alt="">
+            <h3>Learn How to Improve Your Personal Business</h3>
+            <p>Li jun,a China Li jun,a China Li jun,a China Li jun,a China Li jun,a China</p>
+        </div>
+    </div>
+    <!--第六块-->
+    <div id="people">
+        <div id="peo-wrap">
+            <h2>Our Awesome Crew</h2>
+            <p>our only inline our only inline our only inline our only inline our only inline</p>
+            <img class="peo1" src="images/peo_03.jpg" alt="">
+            <img class="peo2" src="images/peo_05.jpg" alt="">
+            <img class="peo3" src="images/peo_09.jpg" alt="">
+            <img class="peo4" src="images/peo_10.jpg" alt="">
+        </div>
+    </div>
+    <!--第七块-->
+    <div id="contact">
+        <div class="contact">
+            <form action="">
+                <h3>FELL FREE TO WRITE US</h3>
+                <input class="mail" type="text" value="E-mail">
+                <input class="sub" type="text" value="Subject">
+                <input class="mess" type="text" value="Message">
+                <input class="btn" type="button" value="Send">
+            </form>
+            <div class="txt">
+                <h3>Contact</h3>
+                <p class="txt-p">look you want look you want look you want look you want look you want look you want</p>
+                <div class="txt-mess">
+                    <div class="adr">
+                        <img src="images/mess_03.jpg" alt="">
+                        <p>360 King Street <br>PA19057</p>
+                    </div>
+                    <div class="phone">
+                        <img src="images/mess_06.jpg" alt="">
+                        <p>(755)564-84-12</p>
+                    </div>
+                    <div class="txt-mail">
+                        <img src="images/mess_08.jpg" alt="">
+                        <p>yourname e-mail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第八块-->
+    <div id="bottom">
+        <div class="bottom">
+            <div class="bottom1">
+                <p class="bottom-txt1">LEARN MORE</p>
+                <p class="bottom-txt2">How it works?</p>
+                <p class="bottom-txt3">How it works?</p>
+                <p class="bottom-txt4">How it works?</p>
+                <p class="bottom-txt5">How it works?</p>
+            </div>
+            <div class="bottom2">
+                <p class="bottom-txt1">ABOUT US</p>
+                <p class="bottom-txt2">How it works?</p>
+                <p class="bottom-txt3">How it works?</p>
+                <p class="bottom-txt4">How it works?</p>
+                <p class="bottom-txt5">How it works?</p>
+            </div>
+            <div class="bottom3">
+                <p class="bottom-txt1">SUPPORT</p>
+                <p class="bottom-txt2">How it works?</p>
+                <p class="bottom-txt3">How it works?</p>
+                <p class="bottom-txt4">How it works?</p>
+                <p class="bottom-txt5">How it works?</p>
+            </div>
+            <div class="bottom4">
+                    <p class="bottom-txt1">ENJOY YOUR LIFE</p>
+                    <p class="bottom-txt2">How it works? How it works? How it works?How it works How it works</p>
+                    <div class="bottom-pic">
+                    <img class="pic1" src="images/iconbtn_03.jpg" alt="">
+                    <img class="pic2" src="images/iconbtn_05.jpg" alt="">
+                    <img class="pic3" src="images/iconbtn_07.jpg" alt="">
+                    <img class="pic4" src="images/iconbtn_09.jpg" alt="">
+                    <img class="pic5" src="images/iconbtn_11.jpg" alt="">
+                    <img class="pic6" src="images/iconbtn_13.jpg" alt="">
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
