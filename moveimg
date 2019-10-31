@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="font_1444977_ado64dap2e/iconfont.css">
+</head>
+<style>
+    #mov{
+        position: relative;
+        width:470px;
+        height:341px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    #imgCon{
+        width:1882px;
+        height:341px;
+        font-size: 0;
+        position: absolute;
+    }
+    #imgCon img{float: left;}
+    #imgCon img:nth-child(1) {
+        width:469px;
+        height:341px;
+    }
+    #imgCon img:nth-child(2) {
+        width:472px;
+        height:341px;
+    }
+    #imgCon img:nth-child(3) {
+        width:469px;
+        height:341px;
+    }
+    #imgCon img:nth-child(4) {
+        width:472px;
+        height:341px;
+    }
+    #listImg {
+        position: absolute;
+        left: 195px;
+        bottom:10px;
+    }
+    #listImg li{
+        display: block;
+        width:10px;
+        height: 10px;
+        list-style:none;
+        border:1px solid red;
+        border-radius: 50%;
+        float: left;
+    }
+    .icon-arrow-lift{
+        position: absolute;
+        left:0;
+        top:170px;}
+    .icon-arrow-right{
+        position: absolute;
+        right:0;
+        top:170px;
+    }
+</style>
+<body>
+    <div id="mov">
+    <div id="imgCon">
+        <img src="images/peo_03.jpg" alt="">
+        <img src="images/peo_05.jpg" alt="">
+        <img src="images/peo_09.jpg" alt="">
+        <img src="images/peo_10.jpg" alt="">
+    </div>
+     <ul id="listImg">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div>
+        <span class="iconfont icon-arrow-lift"></span>
+        <span class="iconfont icon-arrow-right"></span>
+    </div>
+    </div>
+<script>
+    var position=0,
+        preLi,
+        leftBtn=document.getElementsByClassName("icon-arrow-lift")[0],
+        rightBtn=document.getElementsByClassName("icon-arrow-right")[0],
+        imgCon=document.getElementById("imgCon"),
+        listImg=Array.from(document.getElementsByTagName("li"));
+    leftBtn.addEventListener("click",clickHandler);
+    rightBtn.addEventListener("click",clickHandler);
+    for(var i=0;i<listImg.length;i++){
+        listImg[i].addEventListener("click",liClickHandler);
+    }
+   
+    imgMove();
+    function clickHandler(e) {
+         if(this===leftBtn){
+             position--;
+             if(position<0){
+                 position=3;
+             }
+             imgMove();
+             return;
+         }
+         position++;
+         if(position>3){
+             position=0;
+         }
+         imgMove();
+    }
+    function imgMove(){
+        imgCon.style.left=-470*position+"px";
+        if(preLi){
+            preLi.style.backgroundColor="rgba(255,0,0,0)";
+        }
+        preLi=listImg[position];
+        preLi.style.backgroundColor="rgba(255,0,0,0.5)";
+    }
+    function liClickHandler(e){
+         position=listImg.indexOf(this);
+         imgMove();
+    }
+</script>
+</body>
+
+</html>
